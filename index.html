@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Advanced JavaScript Quiz</h2>
+
+    <div id="registration">
+        <input type="text" id="userName">
+        <!-- <button id="name">Random Name</button> -->
+        <button id="start">Start Quiz</button>
+        <button id="score">HighScore</button>
+    </div>
+
+    <div id="questions" style="display: none;">
+        <p color="red">time: <span id="timer"></span></p>
+        <p id="question"></p>
+        <input type="text" id="option">
+        <select name="question1" id="questions">
+            <option value="">Aple</option>
+            <option value="">Opple</option>
+            <option value="apple">apple</option>
+            <option value="">appe</option>
+        </select>
+        <button type="submit" id="prev">Previous</button>
+        <button type="submit" id="next">Save&Next</button>
+    </div>
+
+    <div id="ScoreCard">
+        <p>Your Score: <span id="totalMarks"></span></p>
+        <button id="UserScore"></button><button id="highScore"></button></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
